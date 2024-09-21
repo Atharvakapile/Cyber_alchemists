@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us</title>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Navigation (Assuming it's the same as your other pages) -->
+    <nav class="bg-gray-800 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <!-- Logo Section -->
+                <div class="flex-shrink-0 flex items-center">
+                    <img src="/images/cyber logo.png" alt="Logo" class="h-20 w-50 pb-2 pt-2">
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">Home</a>
+                    <a href="about.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">About</a>
+                    <a href="contact.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">Contact</a>
+                    <a href="events.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">Events</a>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-200 hover:text-teal-400 focus:outline-none">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden flex-col space-y-2 mt-2 ml-2">
+                <a href="index.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">Home</a>
+                <a href="about.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">About</a>
+                <a href="contact.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">Contact</a>
+                <a href="events.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">Events</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="bg-gray-900 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-teal-400 text-center mb-8">Contact Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Contact Details -->
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6 text-center">
+                    <h3 class="text-2xl font-semibold text-teal-400 mb-4">Get in Touch</h3>
+                    <p class="text-gray-300 mb-4">We would love to hear from you. Feel free to reach out with any questions or feedback.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-center space-x-4">
+                            <span class="text-gray-300">DY Patil Knowledge City Road Via Lohgaon, Airport Rd, Charholi Budruk, Pune, Maharashtra 412105</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-4">
+                            <span class="text-gray-300">cyber.alchemists@adypu.edu.in</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-4">
+                            <span class="text-gray-300">+91 1111111111</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map -->
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-semibold text-teal-400 mb-4 text-center">Find Us</h3>
+                    <div class="relative w-full h-64 rounded-lg overflow-hidden">
+                        <iframe class="absolute inset-0 w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61582.79088828636!2d73.9084598!3d18.6209947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c71e08905091%3A0x51ca0d931361c1bc!2sAjeenkya+DY+Patil+University!5e0!3m2!1sen!2sin!4v1634605086452!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Assuming it's the same as your other pages) -->
+    <footer class="bg-gray-800 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <!-- Logo Section -->
+                <div class="flex items-center mb-6 md:mb-0">
+                    <img src="/images/cyber logo.png" alt="Logo" class="h-30 w-60 mr-3">
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="text-center md:text-left md:mr-12 mb-6 md:mb-0">
+                        <h4 class="text-lg font-semibold text-teal-400 mb-2">Quick Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="index.html" class="text-gray-300 hover:text-teal-400 transition duration-300">Home</a></li>
+                            <li><a href="about.html" class="text-gray-300 hover:text-teal-400 transition duration-300">About</a></li>
+                            <li><a href="contact.html" class="text-gray-300 hover:text-teal-400 transition duration-300">Contact</a></li>
+                            <li><a href="events.html" class="text-gray-300 hover:text-teal-400 transition duration-300">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to toggle the mobile menu
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>

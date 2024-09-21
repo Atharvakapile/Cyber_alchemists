@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Events - Cyber Alchemists</title>
+</head>
+<body class="bg-gray-900 text-white">
+
+<!-- Header Section -->
+<nav class="bg-gray-800 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20">
+            <!-- Logo Section -->
+            <div class="flex-shrink-0 flex items-center">
+                <a href="index.html" class="flex items-center">
+                    <img src="/images/cyber logo.png" alt="Logo" class="h-20 w-50 pb-2 pt-2">
+                </a>
+            </div>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="index.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">Home</a>
+                <a href="about.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">About</a>
+                <a href="contact.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">Contact</a>
+                <a href="events.html" class="text-lg font-medium hover:text-teal-400 transition duration-300">Events</a>
+            </div>
+            <!-- Hamburger Icon -->
+            <div class="md:hidden flex items-center">
+                <button id="menu-btn" class="text-gray-200 hover:text-teal-400 focus:outline-none">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden  flex-col space-y-2 mt-2 ml-2">
+            <a href="index.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">Home</a>
+            <a href="about.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">About</a>
+            <a href="contact.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">Contact</a>
+            <a href="events.html" class="text-lg font-medium hover:text-teal-400 transition duration-300 flex">Events</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Events Section -->
+<section class="events bg-gray-900 py-12">
+    <h2 class="text-3xl md:text-4xl font-bold text-teal-400 text-center mb-8">Upcoming Events</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+        
+        <!-- Event Card 1 -->
+        <div class="event-card bg-gray-800 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+            <!-- Event Image -->
+            <div class="mb-4">
+                <img src="/images/event.DNG" alt="Cybersecurity Bootcamp" class="w-full h-40 object-cover rounded-md">
+            </div>
+            <h3 class="text-2xl font-semibold text-teal-400 mb-2">Cybersecurity Bootcamp</h3>
+            <p class="text-gray-300 mb-4">Date: August 25, 2024</p>
+            <p class="text-gray-400 mb-6">Join us for an intensive bootcamp covering the latest trends and techniques in cybersecurity.</p>
+        </div>
+        
+        <!-- Event Card 2 -->
+        <div class="event-card bg-gray-800 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+            <!-- Event Image -->
+            <div class="mb-4">
+                <img src="/images/event.DNG" alt="CTF Challenge" class="w-full h-40 object-cover rounded-md">
+            </div>
+            <h3 class="text-2xl font-semibold text-teal-400 mb-2">CTF Challenge</h3>
+            <p class="text-gray-300 mb-4">Date: September 10, 2024</p>
+            <p class="text-gray-400 mb-6">Test your skills in our Capture the Flag challenge and win exciting prizes!</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Events Section -->
+<section class="events bg-gray-900 py-12">
+    <h2 class="text-3xl md:text-4xl font-bold text-teal-400 text-center mb-8">Upcoming Events</h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+        
+        <!-- Event Card 1 -->
+        <div class="event-card bg-gray-800 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+            <!-- Event Image -->
+            <div class="mb-4">
+                <img src="/images/event.DNG" alt="Cybersecurity Bootcamp" class="w-full h-40 object-cover rounded-md">
+            </div>
+            <h3 class="text-2xl font-semibold text-teal-400 mb-2">Cybersecurity Bootcamp</h3>
+            <p class="text-gray-300 mb-4">Date: August 25, 2024</p>
+            <p class="text-gray-400 mb-6">Join us for an intensive bootcamp covering the latest trends and techniques in cybersecurity.</p>
+        </div>
+        
+        <!-- Event Card 2 -->
+        <div class="event-card bg-gray-800 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
+            <!-- Event Image -->
+            <div class="mb-4">
+                <img src="/images/event.DNG" alt="CTF Challenge" class="w-full h-40 object-cover rounded-md">
+            </div>
+            <h3 class="text-2xl font-semibold text-teal-400 mb-2">CTF Challenge</h3>
+            <p class="text-gray-300 mb-4">Date: September 10, 2024</p>
+            <p class="text-gray-400 mb-6">Test your skills in our Capture the Flag challenge and win exciting prizes!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Go to Top Button -->
+<button id="go-top" class="fixed bottom-4 right-4 bg-teal-500 text-white p-3 rounded-full shadow-lg hover:bg-teal-400 transition-transform transform hover:scale-110 focus:outline-none">
+    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7-7-7 7M12 4v16" />
+    </svg>
+</button>
+
+
+<footer class="bg-gray-800 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <!-- Logo Section -->
+            <div class="flex items-center mb-6 md:mb-0">
+                <img src="/images/cyber logo.png" alt="Logo" class="h-30 w-60 mr-3">
+
+            </div>
+            
+            <!-- Quick Links -->
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="text-center md:text-left md:mr-12 mb-6 md:mb-0">
+                    <h4 class="text-lg font-semibold text-teal-400 mb-2">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-teal-400 transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-teal-400 transition duration-300">About</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-teal-400 transition duration-300">Contact</a></li>
+                        <li><a href="events.html" class="text-gray-300 hover:text-teal-400 transition duration-300">Events</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Text -->
+        <div class="text-center mt-8">
+            <p class="text-gray-400 text-sm">&copy; 2024 Cyber Alchemists. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<script>
+    // JavaScript to toggle the mobile menu
+    document.getElementById('menu-btn').addEventListener('click', function() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    });
+
+
+// Show or hide the "Go to Top" button based on scroll position
+window.addEventListener('scroll', () => {
+        const goTopButton = document.getElementById('go-top');
+        if (window.scrollY > 300) { // Show button when scrolled more than 300px
+            goTopButton.classList.remove('opacity-0');
+            goTopButton.classList.add('opacity-100');
+        } else {
+            goTopButton.classList.remove('opacity-100');
+            goTopButton.classList.add('opacity-0');
+        }
+    });
+
+    // Smooth scroll to top
+    document.getElementById('go-top').addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+
+</body>
+</html>
